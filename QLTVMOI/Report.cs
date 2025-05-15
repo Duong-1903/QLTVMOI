@@ -19,7 +19,7 @@ namespace QLTVMOI
         public Report(string option)
         {
             InitializeComponent();
-            
+            _option = option;
         }
         private void loaddulieu(string sql, string reportDataSourceName)
         {
